@@ -1,0 +1,19 @@
+{
+    "name": "jack/wiki-embedded-content-service",
+    "description": "provide output friendly embeddable content from wiki sites via api",
+    "authors": [
+        {
+            "name": "jgleeson",
+            "email": "jgleeson@wikimedia.org"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.10",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
